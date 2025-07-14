@@ -5,6 +5,7 @@ import { CardPurpleComponent } from '../card-purple/card-purple.component';
 import { CardPurpleButtonComponent } from '../card-purple-button/card-purple-button.component';
 import { CardRedButtonComponent } from '../card-red-button/card-red-button.component';
 import { CardRedCancelButtonComponent } from '../card-red-cancel-button/card-red-cancel-button.component';
+import { MatSliderModule } from '@angular/material/slider';
 
 
 
@@ -17,7 +18,8 @@ import { CardRedCancelButtonComponent } from '../card-red-cancel-button/card-red
     CardRedCancelButtonComponent,
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    MatSliderModule,
   ],
   exports: [
     CardRedComponent,
