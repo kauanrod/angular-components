@@ -1,0 +1,5 @@
+// If i put ::ng-deep here without :host, it will apply to all components
+// If i put ::ng-deep in the component, it will apply only to that component
+// .card-red-cancel-button {
+//     background-color: yellow !important;
+// }
